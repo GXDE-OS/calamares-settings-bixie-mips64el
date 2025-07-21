@@ -1,0 +1,162 @@
+calamares-settings-debian (10.0.20-edu4+1.lnd2.5) UNRELEASED; urgency=medium
+
+  * fixed bug.
+
+ -- Wang Ming <wangming@loongson.cn>  Thu, 08 Jul 2021 19:41:53 +0800
+
+calamares-settings-debian (10.0.20-edu4+1.lnd2.4) UNRELEASED; urgency=medium
+
+  * partition.conf.patch. 
+
+ -- Wang Ming <wangming@loongson.cn>  Wed, 07 Jul 2021 20:51:53 +0800
+
+calamares-settings-debian (10.0.20-edu4+1.lnd2.3) UNRELEASED; urgency=medium
+
+  * brand name Loongnix. 
+
+ -- Wang Ming <wangming@loongson.cn>  Wed, 07 Jul 2021 20:51:53 +0800
+
+calamares-settings-debian (10.0.20-edu4+1.lnd2.2) UNRELEASED; urgency=medium
+
+  * Add install-debian.svg 
+
+ -- Wang Ming <wangming@loongson.cn>  Wed, 07 Jul 2021 18:51:53 +0800
+
+calamares-settings-debian (10.0.20-edu4+1.lnd2.1) UNRELEASED; urgency=medium
+
+  * Revert
+
+ -- Wang Ming <wangming@loongson.cn>  Wed, 07 Jul 2021 18:50:53 +0800
+
+calamares-settings-debian (10.0.20-1+deb10u1.1.lnd2) buster; urgency=medium
+
+  * Localization.
+
+ -- Wang Ming <wangming@loongson.cn>  Sat, 16 Jan 2021 11:28:37 +0800
+
+calamares-settings-debian (10.0.20-1+deb10u1.1.lnd1) UNRELEASED; urgency=medium
+
+  * Add loongson supported
+
+ -- Huang Jia Wen <huangjiawen@loongson.cn>  Fri, 08 Nov 2020 15:28:37 +0800
+
+calamares-settings-debian (10.0.20-1+deb10u1.1) UNRELEASED; urgency=medium
+
+  * add loongson png for calamares.
+
+ -- duanzhiwei <duanzhiwei@loongson.cn>  Fri, 06 Nov 2020 15:28:37 +0800
+
+calamares-settings-debian (10.0.20-1+deb10u1) buster; urgency=medium
+
+  * Fix permissions for initramfs image when full-desk encryption
+    is enabled. (CVE-2019-13179) (Closes: #931373)
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 03 Jul 2019 13:05:47 +0000
+
+calamares-settings-debian (10.0.20-1) unstable; urgency=medium
+
+  * New upstream release
+    - Configure Desktop icon for calamares
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 18 Apr 2019 08:18:37 +0000
+
+calamares-settings-debian (10.0.19-1) unstable; urgency=medium
+
+  * New upstream release
+    - Don't install unnecessary efi file (Closes: #927102)
+    - Fix distribution description
+    - Fix release notes URL
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 15 Apr 2019 13:32:36 +0000
+
+calamares-settings-debian (10.0.18-1) unstable; urgency=medium
+
+  * New upstream releas
+    - fix efi install path to EFI/debian
+  * Update to debhelper-compat (=12)
+
+ -- Jonathan Carter <jcc@debian.org>  Fri, 15 Feb 2019 16:06:39 +0200
+
+calamares-settings-debian (10.0.17-1) unstable; urgency=medium
+
+  * New upstream release
+    - explicitly remove calamares-settings-debian from calamares packages
+      module
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 16 Jan 2019 19:14:36 +0200
+
+calamares-settings-debian (10.0.16-1) unstable; urgency=medium
+
+  * New upstream release
+  * Fix package description (Closes: #918222)
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 16 Jan 2019 12:15:28 +0200
+
+calamares-settings-debian (10.0.15-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update standards version to 4.3.0
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 08 Jan 2019 10:48:47 +0200
+
+calamares-settings-debian (10.0.14-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 10 Dec 2018 15:32:26 +0200
+
+calamares-settings-debian (10.0.13-1) unstable; urgency=medium
+
+  * New upstream release
+  * Add libglib2.0-bin to build-depends
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 01 Dec 2018 11:40:55 +0200
+
+calamares-settings-debian (10.0.10-2) unstable; urgency=medium
+
+  * Fix diverts (Closes: #909492)
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 25 Sep 2018 14:32:01 +0200
+
+calamares-settings-debian (10.0.10-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Carter <jcc@debian.org>  Wed, 19 Sep 2018 10:58:27 +0200
+
+calamares-settings-debian (10.0.9-1) unstable; urgency=medium
+
+  * New usptream release
+  * Add divert to hide original Calamares icon
+  * Update standards version to 4.2.1
+
+ -- Jonathan Carter <jcc@debian.org>  Tue, 18 Sep 2018 20:17:54 +0200
+
+calamares-settings-debian (10.0.8-2) unstable; urgency=medium
+
+  * Fix watch file
+  * Update standards version to 4.2.0
+
+ -- Jonathan Carter <jcc@debian.org>  Thu, 09 Aug 2018 09:29:48 +0200
+
+calamares-settings-debian (10.0.8-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update watch file
+
+ -- Jonathan Carter <jcc@debian.org>  Mon, 25 Jun 2018 12:29:07 +0200
+
+calamares-settings-debian (10.0.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update watch file to new upstream location on salsa
+  * Fix indentation in copyright file
+  * Update VCS to salsa.debian.org
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 19 May 2018 12:14:25 +0200
+
+calamares-settings-debian (10.0.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #847766)
+
+ -- Jonathan Carter <jcc@debian.org>  Sat, 28 Apr 2018 18:06:34 +0200

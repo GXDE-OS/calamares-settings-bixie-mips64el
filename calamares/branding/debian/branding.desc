@@ -1,0 +1,29 @@
+---
+componentName:   debian
+welcomeStyleCalamares: true
+
+strings:
+    productName:         GXDE OS GNU/Linux
+    shortProductName:    GXDE
+    version:             15
+    shortVersion:        15
+    versionedName:       GXDE OS 15
+    shortVersionedName:  GXDE OS 15
+    bootloaderEntryName: GXDE_OS
+    productUrl:          https://www.gxde.top
+    supportUrl:          https://www.gxde.top
+    releaseNotesUrl:     https://www.gxde.top
+    knownIssuesUrl:      https://gitee.com/organizations/GXDE-OS/issues
+    donateUrl:           https://gitee.com/GXDE-OS#%E8%AF%B7%E4%BD%9C%E8%80%85%E5%96%9D%E6%9D%AF%E8%8C%B6
+
+images:
+    productLogo:         "gxde-logo.svg"
+    productIcon:         "gxde-logo.svg"
+    productWelcome:      "welcome.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2c3133"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#4d7079"

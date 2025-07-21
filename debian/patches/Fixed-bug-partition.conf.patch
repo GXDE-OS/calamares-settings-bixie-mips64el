@@ -1,0 +1,26 @@
+From c503c4fda211ed2ceba88708c0f9ae4ea0d86ef5 Mon Sep 17 00:00:00 2001
+From: Wang Ming <wangming@loongson.cn>
+Date: Thu, 8 Jul 2021 19:44:08 +0800
+Subject: [PATCH] Fixed bug: partition.conf
+
+Change-Id: Ieef87e8127e47139f83db39b4be681d8841489da
+---
+ calamares/modules/partition.conf | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/calamares/modules/partition.conf b/calamares/modules/partition.conf
+index d8fb8b2..6ba8a1d 100644
+--- a/calamares/modules/partition.conf
++++ b/calamares/modules/partition.conf
+@@ -101,7 +101,7 @@ partitionLayout:
+       filesystem: "ext4" 
+       mountPoint: "/home" 
+       size: 50%
+-      minSize:10G
++      minSize: 10G
+ #
+ # There can be any number of partitions, each entry having the following attributes:
+ #   - name: partition label
+-- 
+2.20.1
+

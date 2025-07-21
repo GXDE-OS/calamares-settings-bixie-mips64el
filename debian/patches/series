@@ -1,0 +1,4 @@
+fix-initramfs-permissions
+Add-install-debian.svg.patch
+partition.conf.patch
+Fixed-bug-partition.conf.patch
