@@ -19,3 +19,5 @@ else
     echo " * install grub... (bios)"
     DEBIAN_FRONTEND=noninteractive chroot $CHROOT apt-get -y install grub-pc cryptsetup keyutils
 fi
+
+cp -rv $CHROOT/EFI/ $CHROOT/boot/ | true
