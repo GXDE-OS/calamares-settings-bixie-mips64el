@@ -19,11 +19,11 @@ strings:
 images:
     productLogo:         "gxde-logo.svg"
     productIcon:         "gxde-logo.svg"
-    productWelcome:      "welcome.png"
 
 slideshow:               "show.qml"
 
 style:
-   sidebarBackground:    "#2c3133"
-   sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#4d7079"
+   SidebarBackground:    "#002424"
+   SidebarText:          "#FFFFFF"
+   SidebarTextCurrent:   "#fbfbfb"
+   SidebarBackgroundCurrent: "#005050"

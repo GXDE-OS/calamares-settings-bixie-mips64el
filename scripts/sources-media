@@ -18,6 +18,7 @@ mkdir -p $CHROOT/$MEDIUM_PATH
 mount --bind $MEDIUM_PATH $CHROOT/$MEDIUM_PATH
 echo "deb [trusted=yes] file:$MEDIUM_PATH $RELEASE main" > $CHROOT/etc/apt/sources.list.d/debian-live-media.list
 chroot $CHROOT apt-get update
+chroot $CHROOT apt-get install dracut -y
 # Attempt safest way to remove cruft
 rmdir $CHROOT/run/live/medium
 rmdir $CHROOT/run/live
