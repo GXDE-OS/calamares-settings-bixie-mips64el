@@ -12,7 +12,7 @@ Package: calamares-settings-gxde-mips64el
 Provides: calamares-settings-gxde, calamares-settings
 Replaces: calamares-settings-gxde
 Architecture: all
-Depends: calamares-mips64el,
+Depends: calamares (<< 3.3.0),
          cryptsetup,
          keyutils,
          qml-module-qtquick-window2,

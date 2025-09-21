@@ -1,8 +1,9 @@
-calamares-settings-debian (10.0.20-edu4+1.lnd2.6) UNRELEASED; urgency=medium
+calamares-settings-debian (10.0.20-edu4+1.lnd2.7) UNRELEASED; urgency=medium
 
   * fixed bug.
+  * 调整依赖
 
- -- gfdgd xi <gfdgd_xi@gfdgdxi-PC>  Sun, 21 Sep 2025 07:20:19 +0800
+ -- gfdgd xi <gfdgd_xi@gfdgdxi-PC>  Sun, 21 Sep 2025 13:32:27 +0800
 
 calamares-settings-debian (10.0.20-edu4+1.lnd2.4) UNRELEASED; urgency=medium
 
