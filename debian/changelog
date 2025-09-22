@@ -1,10 +1,11 @@
-calamares-settings-debian (10.0.20-edu4+1.lnd2.8) UNRELEASED; urgency=medium
+calamares-settings-debian (10.0.20-edu4+1.lnd2.9) UNRELEASED; urgency=medium
 
   * fixed bug.
   * 调整依赖
   * 调整预览包
+  * 调整配色
 
- -- gfdgd xi <gfdgd_xi@gfdgdxi-PC>  Sun, 21 Sep 2025 15:44:33 +0800
+ -- gfdgd xi <gfdgd_xi@gfdgdxi-PC>  Mon, 22 Sep 2025 22:29:06 +0800
 
 calamares-settings-debian (10.0.20-edu4+1.lnd2.4) UNRELEASED; urgency=medium
 
